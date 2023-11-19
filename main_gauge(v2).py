@@ -225,7 +225,7 @@ def identify_gauge(file_name):
     # cv2.waitKey()
     return(angel)
 
-filename = glob.glob(r'*.png')
+filename = glob.glob(r'picture/*.png')
 angel_list = []
 aa = 0
 for i in filename:
