@@ -221,8 +221,8 @@ def identify_gauge(file_name):
     
     print("angel: ",angel)
     
-    # cv2.imshow("img",img)
-    # cv2.waitKey()
+    cv2.imshow("img",img)
+    cv2.waitKey()
     return(angel)
 
 filename = glob.glob(r'picture/*.png')
